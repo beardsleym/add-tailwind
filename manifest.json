@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "useTailwind",
+  "version": "0.1.0",
+
+  "description": "Add Tailwind to any website to use in dev tools.",
+  "icons": {
+    "16": "/icons/tailwind-css-16.png",
+    "32": "/icons/tailwind-css-32.png",
+    "48": "/icons/tailwind-css-48.png",
+    "128": "/icons/tailwind-css-128.png"
+  },
+  "background": {
+    "scripts": ["tailwind.3.0.23.js", "background.js"],
+    "css": ["main.css"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "/icons/tailwind-css-16.png",
+      "32": "/icons/tailwind-css-32.png",
+      "48": "/icons/tailwind-css-48.png",
+      "128": "/icons/tailwind-css-128.png"
+    }
+  },
+  "permissions": ["activeTab", "notifications"],
+  "author": "Matthew Beardsley"
+}
